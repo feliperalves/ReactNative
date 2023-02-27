@@ -15,7 +15,7 @@ export default function Toggle({ label, options, value, onChange }: IToggle) {
       <View style={styles.optionsContainer}>
         {options.map((option) => (
           <Button
-            color={option === value ? '#3B6CD4' : '#AAA'}
+            color={option === value ? '#000000' : '#AAA'}
             onPress={() => onChange(option)}
             title={option}
             key={option}
